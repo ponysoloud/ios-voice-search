@@ -7,19 +7,58 @@
 //
 
 import UIKit
+import Speech
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SFSpeechRecognizerDelegate {
+    
+    static let region = "en-US"
 
+    @IBOutlet weak var spokenTextView: UITextView!
+    
+    @IBOutlet weak var recordButton: UIButton!
+    
+    private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: region))!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        speechRecognizer.delegate = self
+        
+        SFSpeechRecognizer.requestAuthorization { authStatus in
+            
+            var recordAvailabilityState = false
+            
+            switch authStatus {
+                
+            case .authorized:
+                recordAvailabilityState = true
+                
+            case .denied:
+                recordAvailabilityState = false
+                print("User denied access to speech recognition") //Log
+                
+            case .restricted:
+                recordAvailabilityState = false
+                print("Speech recognition restricted on this device") //Log
+                
+            case .notDetermined:
+                recordAvailabilityState = false
+                print("Speech recognition not yet authorized") //Log
+            }
+            
+            
+            OperationQueue.main.addOperation {
+                self.recordButton.isEnabled = recordAvailabilityState
+            }
+            
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+
+    
+    @IBAction func recordTapped(_ sender: Any) {
+        
     }
-
-
 }
 
