@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D6D589633F9FC671BEF32D0 /* Pods_ios_voice_search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377BC095DAF253561F71B2B5 /* Pods_ios_voice_search.framework */; };
+		933E43AA1F192B73000B97FE /* DialogTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933E43A91F192B73000B97FE /* DialogTextView.swift */; };
+		933E43AF1F1BF533000B97FE /* SpeechHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933E43AE1F1BF533000B97FE /* SpeechHandler.swift */; };
+		933E43B11F1BFEF3000B97FE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933E43B01F1BFEF3000B97FE /* DataManager.swift */; };
+		933E43B31F1C0074000B97FE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933E43B21F1C0074000B97FE /* Result.swift */; };
 		9340D01B1F0D241F00F1E698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340D01A1F0D241F00F1E698 /* AppDelegate.swift */; };
-		9340D01D1F0D241F00F1E698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340D01C1F0D241F00F1E698 /* ViewController.swift */; };
 		9340D0201F0D241F00F1E698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9340D01E1F0D241F00F1E698 /* Main.storyboard */; };
 		9340D0221F0D241F00F1E698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9340D0211F0D241F00F1E698 /* Assets.xcassets */; };
 		9340D0251F0D241F00F1E698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9340D0231F0D241F00F1E698 /* LaunchScreen.storyboard */; };
+		937188EE1F17A7E600F1881F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188ED1F17A7E600F1881F /* ViewController.swift */; };
+		93AE11B91F18122F007AA2C5 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE11B81F18122F007AA2C5 /* Parameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		377BC095DAF253561F71B2B5 /* Pods_ios_voice_search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_voice_search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC8440ED892D6240216B4CF /* Pods-ios-voice-search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-voice-search.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-voice-search/Pods-ios-voice-search.release.xcconfig"; sourceTree = "<group>"; };
+		933E43A91F192B73000B97FE /* DialogTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogTextView.swift; sourceTree = "<group>"; };
+		933E43AE1F1BF533000B97FE /* SpeechHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechHandler.swift; sourceTree = "<group>"; };
+		933E43B01F1BFEF3000B97FE /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		933E43B21F1C0074000B97FE /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		9340D0171F0D241F00F1E698 /* ios-voice-search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-voice-search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9340D01A1F0D241F00F1E698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9340D01C1F0D241F00F1E698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9340D01F1F0D241F00F1E698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9340D0211F0D241F00F1E698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9340D0241F0D241F00F1E698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9340D0261F0D241F00F1E698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937188ED1F17A7E600F1881F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93AE11B81F18122F007AA2C5 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		D98A59ECF463E2AA5D9175C0 /* Pods-ios-voice-search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-voice-search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-voice-search/Pods-ios-voice-search.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6D589633F9FC671BEF32D0 /* Pods_ios_voice_search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B1DF0907ED2ED70882CED47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D98A59ECF463E2AA5D9175C0 /* Pods-ios-voice-search.debug.xcconfig */,
+				5CC8440ED892D6240216B4CF /* Pods-ios-voice-search.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		933E43AB1F1BDF24000B97FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				933E43AE1F1BF533000B97FE /* SpeechHandler.swift */,
+				93AE11B81F18122F007AA2C5 /* Parameters.swift */,
+				933E43B21F1C0074000B97FE /* Result.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		933E43AC1F1BDFCF000B97FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				937188ED1F17A7E600F1881F /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		933E43AD1F1BDFD5000B97FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				933E43A91F192B73000B97FE /* DialogTextView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		9340D00E1F0D241F00F1E698 = {
 			isa = PBXGroup;
 			children = (
 				9340D0191F0D241F00F1E698 /* ios-voice-search */,
 				9340D0181F0D241F00F1E698 /* Products */,
+				8B1DF0907ED2ED70882CED47 /* Pods */,
+				D947DE0BF716A43596F9E34A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +107,24 @@
 			isa = PBXGroup;
 			children = (
 				9340D01A1F0D241F00F1E698 /* AppDelegate.swift */,
-				9340D01C1F0D241F00F1E698 /* ViewController.swift */,
-				9340D01E1F0D241F00F1E698 /* Main.storyboard */,
+				933E43B01F1BFEF3000B97FE /* DataManager.swift */,
+				933E43AB1F1BDF24000B97FE /* Model */,
+				933E43AC1F1BDFCF000B97FE /* Controller */,
+				933E43AD1F1BDFD5000B97FE /* View */,
 				9340D0211F0D241F00F1E698 /* Assets.xcassets */,
+				9340D01E1F0D241F00F1E698 /* Main.storyboard */,
 				9340D0231F0D241F00F1E698 /* LaunchScreen.storyboard */,
 				9340D0261F0D241F00F1E698 /* Info.plist */,
 			);
 			path = "ios-voice-search";
+			sourceTree = "<group>";
+		};
+		D947DE0BF716A43596F9E34A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377BC095DAF253561F71B2B5 /* Pods_ios_voice_search.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9340D0291F0D241F00F1E698 /* Build configuration list for PBXNativeTarget "ios-voice-search" */;
 			buildPhases = (
+				8610CE614BBAC530466A6523 /* [CP] Check Pods Manifest.lock */,
 				9340D0131F0D241F00F1E698 /* Sources */,
 				9340D0141F0D241F00F1E698 /* Frameworks */,
 				9340D0151F0D241F00F1E698 /* Resources */,
+				2EB8F6B11AC2EB96D955C119 /* [CP] Embed Pods Frameworks */,
+				C7A4AF41F73D16857B5C90D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +198,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EB8F6B11AC2EB96D955C119 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-voice-search/Pods-ios-voice-search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8610CE614BBAC530466A6523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A4AF41F73D16857B5C90D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-voice-search/Pods-ios-voice-search-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9340D0131F0D241F00F1E698 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9340D01D1F0D241F00F1E698 /* ViewController.swift in Sources */,
+				937188EE1F17A7E600F1881F /* ViewController.swift in Sources */,
+				933E43B11F1BFEF3000B97FE /* DataManager.swift in Sources */,
+				93AE11B91F18122F007AA2C5 /* Parameters.swift in Sources */,
+				933E43AF1F1BF533000B97FE /* SpeechHandler.swift in Sources */,
+				933E43AA1F192B73000B97FE /* DialogTextView.swift in Sources */,
+				933E43B31F1C0074000B97FE /* Result.swift in Sources */,
 				9340D01B1F0D241F00F1E698 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +380,7 @@
 		};
 		9340D02A1F0D241F00F1E698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98A59ECF463E2AA5D9175C0 /* Pods-ios-voice-search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PEYKHN6GF6;
@@ -274,6 +394,7 @@
 		};
 		9340D02B1F0D241F00F1E698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC8440ED892D6240216B4CF /* Pods-ios-voice-search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PEYKHN6GF6;
@@ -304,6 +425,7 @@
 				9340D02B1F0D241F00F1E698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_ios_voice_search {
+  umbrella header "Pods-ios-voice-search-umbrella.h"
+
+  export *
+  module * { export * }
+}

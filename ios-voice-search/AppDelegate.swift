@@ -7,15 +7,26 @@
 //
 
 import UIKit
+import ApiAI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    /*
+     Api.ai agent access token
+     */
+    let API_AI_ACCESS_TOKEN: String = "db0beb5c509c4ac2905c2d19e7138047"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Configure api
+        let configuration: AIConfiguration = AIDefaultConfiguration()
+        configuration.clientAccessToken = API_AI_ACCESS_TOKEN
+        let apiai = ApiAI.shared()
+        apiai?.configuration = configuration
+        
         return true
     }
 

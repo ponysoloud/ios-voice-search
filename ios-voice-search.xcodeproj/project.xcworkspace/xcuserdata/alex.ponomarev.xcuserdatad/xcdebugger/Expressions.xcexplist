@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SpeechRecognizer.recordSpeech((Bool, String?) -&gt; ()) throws -&gt; ():SpeechRecognizer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "enabled">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpeechRecognizer.enabled.getter:SpeechRecognizer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_speechAvail">
+            </PersistentString>
+            <PersistentString
+               value = "_speechAuth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewControllerTest.recordTapped(Any) -&gt; ():ViewControllerTest.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "speechRecognizer.isAvailable">
+            </PersistentString>
+            <PersistentString
+               value = "speechRecognizer.customSpeechRecognizer.isAvailable">
+            </PersistentString>
+            <PersistentString
+               value = "speechRecognizer.accessibilityStatus">
+            </PersistentString>
+            <PersistentString
+               value = "speechRecognizer.isAuthorized">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpeechRecognizer.recordSpeech() throws -&gt; String?:SpeechRecognizer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "speechRecognizer.isAvailable ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
